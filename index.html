@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+        .ani{
+            /* background-color: red; */
+            height: 10vh;
+            animation-name: grras;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes grras {
+            from{
+                background-color: white;
+                width: 0;
+                font-size: 0;
+            }
+            to{
+                background-color: red;
+                width: 100%;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ani">Hello</div>
+</body>
+</html>
+<!-- 
+
+    <> -- tag
+    h1 h2 -- elements
+    <element> -- call
+ -->
